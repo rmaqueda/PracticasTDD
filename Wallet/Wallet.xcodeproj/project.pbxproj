@@ -19,6 +19,7 @@
 		8C38F5B91A3D90270047B86E /* DolarTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C38F5B81A3D90270047B86E /* DolarTest.m */; };
 		8C38F5BC1A3D92EB0047B86E /* Money.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C38F5BB1A3D92EB0047B86E /* Money.m */; };
 		8C38F5C01A3D952B0047B86E /* NSObject+GNUStepsAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C38F5BF1A3D952B0047B86E /* NSObject+GNUStepsAddons.m */; };
+		8C38F5C41A3D97E10047B86E /* MoneyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C38F5C31A3D97E10047B86E /* MoneyTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		8C38F5BB1A3D92EB0047B86E /* Money.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Money.m; sourceTree = "<group>"; };
 		8C38F5BE1A3D952B0047B86E /* NSObject+GNUStepsAddons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GNUStepsAddons.h"; sourceTree = "<group>"; };
 		8C38F5BF1A3D952B0047B86E /* NSObject+GNUStepsAddons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GNUStepsAddons.m"; sourceTree = "<group>"; };
+		8C38F5C31A3D97E10047B86E /* MoneyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		8C38F5A01A3D7CBA0047B86E /* WalletTests */ = {
 			isa = PBXGroup;
 			children = (
+				8C38F5C31A3D97E10047B86E /* MoneyTest.m */,
 				8C38F5B21A3D7D480047B86E /* EuroTest.m */,
 				8C38F5B81A3D90270047B86E /* DolarTest.m */,
 				8C38F5B41A3D80920047B86E /* New Group */,
@@ -280,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C38F5C41A3D97E10047B86E /* MoneyTest.m in Sources */,
 				8C38F5B91A3D90270047B86E /* DolarTest.m in Sources */,
 				8C38F5B31A3D7D480047B86E /* EuroTest.m in Sources */,
 			);

@@ -43,4 +43,10 @@
     return NO;
 }
 
+
+-(NSUInteger)hash
+{
+    return (NSUInteger) self.amount;
+}
+
 @end
