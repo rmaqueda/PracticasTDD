@@ -1,5 +1,5 @@
 //
-//  Dolar.h
+//  Money.h
 //  Wallet
 //
 //  Created by Ricardo Maqueda Martinez on 14/12/14.
@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Money.h"
 
-@interface Dolar : Money
+@interface Money : NSObject
 
 -(instancetype)initWithAmount:(NSInteger)amount;
+
 -(instancetype)time:(NSInteger)multiplication;
 
 @end

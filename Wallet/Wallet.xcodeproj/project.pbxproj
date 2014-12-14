@@ -17,6 +17,7 @@
 		8C38F5B31A3D7D480047B86E /* EuroTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C38F5B21A3D7D480047B86E /* EuroTest.m */; };
 		8C38F5B71A3D8FBE0047B86E /* Dolar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C38F5B61A3D8FBE0047B86E /* Dolar.m */; };
 		8C38F5B91A3D90270047B86E /* DolarTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C38F5B81A3D90270047B86E /* DolarTest.m */; };
+		8C38F5BC1A3D92EB0047B86E /* Money.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C38F5BB1A3D92EB0047B86E /* Money.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		8C38F5B51A3D8FBE0047B86E /* Dolar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dolar.h; sourceTree = "<group>"; };
 		8C38F5B61A3D8FBE0047B86E /* Dolar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dolar.m; sourceTree = "<group>"; };
 		8C38F5B81A3D90270047B86E /* DolarTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DolarTest.m; sourceTree = "<group>"; };
+		8C38F5BA1A3D92EB0047B86E /* Money.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Money.h; sourceTree = "<group>"; };
+		8C38F5BB1A3D92EB0047B86E /* Money.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Money.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 		8C38F5AD1A3D7D150047B86E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8C38F5BA1A3D92EB0047B86E /* Money.h */,
+				8C38F5BB1A3D92EB0047B86E /* Money.m */,
 				8C38F5AF1A3D7D280047B86E /* Euro.h */,
 				8C38F5B01A3D7D280047B86E /* Euro.m */,
 				8C38F5B51A3D8FBE0047B86E /* Dolar.h */,
@@ -248,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C38F5BC1A3D92EB0047B86E /* Money.m in Sources */,
 				8C38F5B71A3D8FBE0047B86E /* Dolar.m in Sources */,
 				8C38F5B11A3D7D280047B86E /* Euro.m in Sources */,
 				8C38F5901A3D7CBA0047B86E /* ViewController.m in Sources */,
