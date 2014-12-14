@@ -15,6 +15,12 @@
 
 @implementation EuroTest
 
+ -(void)testMultiplication
+{
+    Euro *five = [[Euro alloc] iniWithAmount:5];
+    [five time:2];
 
+    XCTAssertEqual(10, five.amount, @"Both amount should be equal");
+}
 
 @end
