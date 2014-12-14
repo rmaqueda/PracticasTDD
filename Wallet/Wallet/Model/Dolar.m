@@ -30,9 +30,4 @@
     return [self initWithAmount:self.amount * multiplication];
 }
 
--(NSUInteger)hash
-{
-    return (NSUInteger) self.amount;
-}
-
 @end
