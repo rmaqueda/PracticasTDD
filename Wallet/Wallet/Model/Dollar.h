@@ -9,9 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "Money.h"
 
-@interface Dolar : Money
+@interface Dollar : Money
 
--(instancetype)initWithAmount:(NSInteger)amount;
 -(instancetype)time:(NSInteger)multiplication;
 
 @end

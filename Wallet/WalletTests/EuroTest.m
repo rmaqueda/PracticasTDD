@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 #import "Euro.h"
+#import "Money.h"
 
 @interface EuroTest : XCTestCase
 
@@ -18,15 +19,15 @@
 
 -(void)testMultiplication
 {
-    Euro *ten = [[Euro alloc] initWithAmount:10];
-    Euro *five = [[Euro alloc] initWithAmount:5];
+    Euro *ten = [Money euroWithAmount:10];
+    Euro *five = [Money euroWithAmount:5];
 
     XCTAssertEqualObjects(ten, [five time:2], @"5 * 2 should be 10");
 }
 
 -(void)testEquality
 {
-    Euro *fourEuros = [[Euro alloc] initWithAmount:4];
+    Euro *fourEuros = [Money euroWithAmount:4];
     Euro *fourEurosCalculated = [fourEuros time:2];
     
     XCTAssertEqualObjects(fourEuros, fourEurosCalculated, @"Equivalent objects should be equal");
@@ -34,8 +35,8 @@
 
 -(void)testHash
 {
-    Euro *oneEuro1 = [[Euro alloc] initWithAmount:1];
-    Euro *oneEuro2 = [[Euro alloc] initWithAmount:1];
+    Euro *oneEuro1 = [Money euroWithAmount:1];
+    Euro *oneEuro2 = [Money euroWithAmount:1];
 
     XCTAssertEqual([oneEuro1 hash], [oneEuro2 hash], @"Equal objects must have same hash");
 }

@@ -8,6 +8,8 @@
 
 #import "Money.h"
 #import "NSObject+GNUStepsAddons.h"
+#import "Euro.h"
+#import "Dollar.h"
 
 @interface Money ()
 
@@ -16,6 +18,16 @@
 @end
 
 @implementation Money
+
++(id)euroWithAmount:(NSInteger)amount
+{
+    return [[Euro alloc] initWithAmount:amount];
+}
+
++(id)dollarWithAmount:(NSInteger)amount
+{
+    return [[Dollar alloc] initWithAmount:amount];
+}
 
 -(instancetype)initWithAmount:(NSInteger)amount
 {

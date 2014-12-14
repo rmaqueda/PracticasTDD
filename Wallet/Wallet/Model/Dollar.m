@@ -6,24 +6,15 @@
 //  Copyright (c) 2014 Molestudio. All rights reserved.
 //
 
-#import "Dolar.h"
+#import "Dollar.h"
 
-@interface Dolar ()
+@interface Dollar ()
 
 @property (nonatomic) NSInteger amount;
 
 @end
 
-@implementation Dolar
-
--(instancetype)initWithAmount:(NSInteger)amount
-{
-    if (self = [super init]) {
-        _amount = amount;
-    }
-
-    return self;
-}
+@implementation Dollar
 
 -(instancetype)time:(NSInteger)multiplication
 {
