@@ -30,20 +30,6 @@
     return [self initWithAmount:self.amount * multiplication];
 }
 
--(BOOL)isEqual:(id)object
-{
-    if ([object isKindOfClass:[self class]]) {
-        Dolar *euro = (Dolar *)object;
-
-        if (euro.amount == self.amount) {
-            return YES;
-        }
-    }
-
-    return NO;
-}
-
-
 -(NSUInteger)hash
 {
     return (NSUInteger) self.amount;
