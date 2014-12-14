@@ -28,8 +28,24 @@
 {
     Dolar *fourDolars = [[Dolar alloc] initWithAmount:4];
     Dolar *fourDolarsCalculated = [fourDolars time:2];
+    Dolar *fiveDolars = [[Dolar alloc] initWithAmount:5];
 
     XCTAssertEqualObjects(fourDolars, fourDolarsCalculated, @"Equivalent objects should be equal");
+    XCTAssertFalse([fourDolars isEqual:fiveDolars], @"Non equivalent objects should not be equal");
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @end
