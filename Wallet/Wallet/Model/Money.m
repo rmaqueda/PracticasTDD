@@ -7,6 +7,7 @@
 //
 
 #import "Money.h"
+#import "NSObject+GNUStepsAddons.h"
 
 @interface Money ()
 
@@ -28,7 +29,7 @@
 -(instancetype)time:(NSInteger)multiplication
 {
     //No debería llamarsee, sino que se debería de usar el de la subclase
-    return [[Money alloc] initWithAmount:self.amount * multiplication];
+    return [self subclassResponsibility:_cmd];
 }
 
 
