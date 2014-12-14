@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "Euro.h"
 
 @interface EuroTest : XCTestCase
 
@@ -17,7 +18,7 @@
 
  -(void)testMultiplication
 {
-    Euro *five = [[Euro alloc] iniWithAmount:5];
+    Euro *five = [[Euro alloc] initWithAmount:5];
     [five time:2];
 
     XCTAssertEqual(10, five.amount, @"Both amount should be equal");
