@@ -15,6 +15,8 @@
 		8C38F5981A3D7CBA0047B86E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C38F5961A3D7CBA0047B86E /* LaunchScreen.xib */; };
 		8C38F5B11A3D7D280047B86E /* Euro.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C38F5B01A3D7D280047B86E /* Euro.m */; };
 		8C38F5B31A3D7D480047B86E /* EuroTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C38F5B21A3D7D480047B86E /* EuroTest.m */; };
+		8C38F5B71A3D8FBE0047B86E /* Dolar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C38F5B61A3D8FBE0047B86E /* Dolar.m */; };
+		8C38F5B91A3D90270047B86E /* DolarTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C38F5B81A3D90270047B86E /* DolarTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,9 @@
 		8C38F5AF1A3D7D280047B86E /* Euro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Euro.h; sourceTree = "<group>"; };
 		8C38F5B01A3D7D280047B86E /* Euro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Euro.m; sourceTree = "<group>"; };
 		8C38F5B21A3D7D480047B86E /* EuroTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroTest.m; sourceTree = "<group>"; };
+		8C38F5B51A3D8FBE0047B86E /* Dolar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dolar.h; sourceTree = "<group>"; };
+		8C38F5B61A3D8FBE0047B86E /* Dolar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dolar.m; sourceTree = "<group>"; };
+		8C38F5B81A3D90270047B86E /* DolarTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DolarTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				8C38F5B21A3D7D480047B86E /* EuroTest.m */,
+				8C38F5B81A3D90270047B86E /* DolarTest.m */,
 				8C38F5B41A3D80920047B86E /* New Group */,
 				8C38F5A11A3D7CBA0047B86E /* Supporting Files */,
 			);
@@ -129,6 +135,8 @@
 			children = (
 				8C38F5AF1A3D7D280047B86E /* Euro.h */,
 				8C38F5B01A3D7D280047B86E /* Euro.m */,
+				8C38F5B51A3D8FBE0047B86E /* Dolar.h */,
+				8C38F5B61A3D8FBE0047B86E /* Dolar.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -240,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C38F5B71A3D8FBE0047B86E /* Dolar.m in Sources */,
 				8C38F5B11A3D7D280047B86E /* Euro.m in Sources */,
 				8C38F5901A3D7CBA0047B86E /* ViewController.m in Sources */,
 				8C38F58D1A3D7CBA0047B86E /* AppDelegate.m in Sources */,
@@ -251,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C38F5B91A3D90270047B86E /* DolarTest.m in Sources */,
 				8C38F5B31A3D7D480047B86E /* EuroTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

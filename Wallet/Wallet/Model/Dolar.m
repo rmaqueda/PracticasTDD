@@ -1,20 +1,20 @@
 //
-//  Euro.m
+//  Dolar.m
 //  Wallet
 //
 //  Created by Ricardo Maqueda Martinez on 14/12/14.
 //  Copyright (c) 2014 Molestudio. All rights reserved.
 //
 
-#import "Euro.h"
+#import "Dolar.h"
 
-@interface Euro ()
+@interface Dolar ()
 
 @property (nonatomic) NSInteger amount;
 
 @end
 
-@implementation Euro
+@implementation Dolar
 
 -(instancetype)initWithAmount:(NSInteger)amount
 {
@@ -27,13 +27,13 @@
 
 -(instancetype)time:(NSInteger)multiplication
 {
-   return [self initWithAmount:self.amount * multiplication];
+    return [self initWithAmount:self.amount * multiplication];
 }
 
 -(BOOL)isEqual:(id)object
 {
     if ([object isKindOfClass:[self class]]) {
-        Euro *euro = (Euro *)object;
+        Dolar *euro = (Dolar *)object;
 
         if (euro.amount == self.amount) {
             return YES;

@@ -16,12 +16,20 @@
 
 @implementation EuroTest
 
- -(void)testMultiplication
+-(void)testMultiplication
 {
+    Euro *ten = [[Euro alloc] initWithAmount:10];
     Euro *five = [[Euro alloc] initWithAmount:5];
-    [five time:2];
 
-    XCTAssertEqual(10, five.amount, @"Both amount should be equal");
+    XCTAssertEqualObjects(ten, [five time:2], @"5 * 2 should be 10");
+}
+
+-(void)testEquality
+{
+    Euro *fourEuros = [[Euro alloc] initWithAmount:4];
+    Euro *fourEurosCalculated = [fourEuros time:2];
+    
+    XCTAssertEqualObjects(fourEuros, fourEurosCalculated, @"Equivalent objects should be equal");
 }
 
 @end
